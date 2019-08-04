@@ -1,0 +1,103 @@
+---
+# Para transformar em PDF, usar: 
+# pagedown::chrome_print("docs/index.html")
+title: "11º Meetup R-Ladies São Paulo"
+subtitle: "Aniversário de 1 ano!"
+#author: ""
+date: "17/08/2019"
+output:
+  xaringan::moon_reader:
+    css: ["css/kunoichi.css", "css/ninjutsu.css", "css/rladies-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+layout: true
+  
+<div class="my-footer"><span>
+
+<a href="https://twitter.com/RLadiesSaoPaulo">Twitter</a> | 
+<a href="http://instagram.com/RLadiesSaoPaulo">Instagram</a> |
+<a href="http://facebook.com/RLadiesSaoPaulo">Facebook</a> |
+<a href="https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo">Meetup</a> |
+<a href="https://github.com/rladies/meetup-presentations_sao-paulo">Github</a> 
+</span></div> 
+
+---
+class:  center
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", message=FALSE, warning=FALSE)
+```
+
+# Programação
+
+---
+class:  center
+# R-Ladies São Paulo
+
+- R-Ladies é uma organização mundial que **promove a diversidade de gênero** na comunidade da linguagem R.
+
+- R-Ladies São Paulo integra, orgulhosamente, a organização R-Ladies Global, em São Paulo. 
+
+--
+
+- [Código de conduta - R-Ladies](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct#portuguese)
+
+--
+
+- Saiba mais:
+  - Website RLadies Global: [https://rladies.org/](https://rladies.org/)
+  - Twitter: [@RLadiesGlobal](https://twitter.com/rladiesglobal), [@RLadiesSaoPaulo](https://twitter.com/RLadiesSaoPaulo)
+  - Instagram: [@RLadiesSaoPaulo](http://instagram.com/RLadiesSaoPaulo)
+  - Facebook: [@RLadiesSaoPaulo](http://facebook.com/RLadiesSaoPaulo)
+  - MeetUp: [https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo)
+  - Github: [https://github.com/rladies/meetup-presentations_sao-paulo](https://github.com/rladies/meetup-presentations_sao-paulo)
+
+
+
+---
+class:  center
+# Co-organizadoras - Capítulo São Paulo
+
+  - [Haydée Svab](https://www.linkedin.com/in/hsvab/)
+  - [Alissa Munerato](https://br.linkedin.com/in/alissa-munerato-1b0501103)
+  - [Bruna Wundervald](http://brunaw.com/)
+  - [Beatriz Milz](https://beatrizmilz.github.io/)
+  - [Bruna Garbes](https://github.com/brunagarbes)
+  - [Nathália Demetrio](https://github.com/natydemi)
+
+---
+class:  center
+# Apoio
+<BR>
+```{r, out.width="15%", fig.cap="<center><b>RConsortium</center></b>"}
+knitr::include_graphics("img/RCONSORTIUM.png")
+```
+<BR>
+```{r, out.width="35%", fig.cap="<center><b>ThoughtWorks</center></b>"}
+knitr::include_graphics("img/thoughtworks.jpg")
+```
+<BR>
+
+```{r, out.width="30%", fig.cap="<center><b>CONRE-3</center></b>"}
+knitr::include_graphics("img/CONRE-3-LOGO-OFICIAL-safira.png")
+```
+
+
+---
+class:  center
+# Linha do tempo
+
+
+
+---
+class:  center
+# Atividades externas - IV SER
+
+
+---
+class:  center
+# Atividades externas - useR!2019
