@@ -26,7 +26,7 @@ layout: true
 </span></div> 
 
 ---
-class:  center
+class: middle
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", message=FALSE, warning=FALSE)
@@ -34,29 +34,127 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", message=FALSE, warning
 
 # Programação
 
+### 1) Networking
+
+### 2) Apresentação das atividades das RLadies
+
+### 3) Fishbowl + Roda de conversa com o tema: "Como o R-Ladies é e pode ser uma porta de entrada/emponderamento para o mundo da tecnologia?"
+
+### 4) Encerramento (com sorteio)
 ---
-class:  center
-# R-Ladies São Paulo
+class:  center, middle
+# O que é o R-Ladies?
 
-- R-Ladies é uma organização mundial que **promove a diversidade de gênero** na comunidade da linguagem R.
+R-Ladies é uma organização mundial que promove a diversidade de gênero na comunidade da linguagem R.
+R-Ladies São Paulo integra, orgulhosamente, a organização R-Ladies Global, em São Paulo.
 
-- R-Ladies São Paulo integra, orgulhosamente, a organização R-Ladies Global, em São Paulo. 
+## Como?
 
---
+Através de meetups e mentorias em um ambiente seguro e amigável.
 
-- [Código de conduta - R-Ladies](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct#portuguese)
+Nosso principal objetivo é promover a linguagem computacional estatística R compartilhando conhecimento, assim, quem tiver interesse na linguagem será bem-vinda, independente do nível de conhecimento. 
 
---
 
-- Saiba mais:
+Fonte: [About us - R-Ladies](https://rladies.org/about-us/), [Meetup R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/)
+
+
+---
+class:   center, middle
+## Para quem?
+
+Nosso principal público-alvo são as pessoas que se identificam com o gênero feminino, portanto, mulheres cis, mulheres trans, bem como pessoas não-binárias e queer.
+
+## Missão
+
+Como uma iniciativa de diversidade, a missão das R-Ladies é alcançar uma representação proporcional de pessoas de gêneros atualmente sub-representados na comunidade R, incentivando, inspirando e caacitando-as.
+
+
+
+Fonte: [About us - R-Ladies](https://rladies.org/about-us/), [Meetup R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/)
+
+---
+class:   center, middle
+## Como o R-Ladies começou?
+```{r echo=FALSE, fig.align='center', out.width="20%"}
+knitr::include_graphics("https://raw.githubusercontent.com/beatrizmilz/IV-SER-RLadies/master/docs/img/gabriela.jpeg")
+```
+
+
+**[Gabriela de Queiroz](https://github.com/gdequeiroz)** fundou o R-Ladies no dia **1 de outubro de 2012**. Ela queria retribuir à comunidade depois de ir a vários encontros e aprender muito de graça. O primeiro encontro R-Ladies foi realizado em ** San Francisco, Califórnia (Estados Unidos) **. Nos anos seguintes, mais capítulos do R-Ladies começaram em todo o mundo.
+Fonte: [About us - R-Ladies](https://rladies.org/about-us/history/)
+
+---
+class:center, middle
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/shiny2.JPG")
+```
+Fonte: [R-Ladies Shiny App](https://gqueiroz.shinyapps.io/rshinylady/)  (10/08/2019)
+---
+class:   center, middle
+## Código de conduta
+O R-Ladies dedica-se a proporcionar uma experiência livre de assédio para todas as pessoas partcicipantes, desta forma, não é tolerada nenhuma forma de assédio.
+[Código de conduta - R-Ladies](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct#portuguese)
+---
+class:   center, middle
+## R-Ladies no Brasil
+```{r include=FALSE}
+rladies_br <- data.frame(
+  city = c(
+    "Goiania",
+    "Lavras",
+    "Florianópolis",
+    "Salvador",
+    "Niterói",
+    "Curitiba",
+    "Belo Horizonte",
+    "São Paulo",
+    "Porto Alegre",
+    "Natal",
+    "Americana",
+    "Rio de Janeiro"
+  ),
+  dt_created = c(
+    "2019-05-06",
+    "2019-04-16",
+    "2019-04-07",
+    "2018-07-23",
+    "2018-06-04",
+    "2018-05-29",
+    "2018-04-20",
+    "2018-02-10",
+    "2017-10-30",
+    "2017-09-25",
+    "2017-06-24",
+    "2017-02-27"
+  ),
+  members = c(18, 33, 205, 146, 375, 174, 629,
+              456, 270, 137, 37, 410)
+)
+```
+Atualizado em: 10/08/2019. Fonte: [R-Ladies Shiny App](https://gqueiroz.shinyapps.io/rshinylady/) 
+```{r echo=FALSE}
+library(tidyverse)
+rladies_br %>% dplyr::arrange(desc(members)) %>%  
+DT::datatable(autoHideNavigation = TRUE, options = list(
+  pageLength = 6
+   ))
+```
+---
+class:  center, middle
+## Como saber mais?
+
   - Website RLadies Global: [https://rladies.org/](https://rladies.org/)
   - Twitter: [@RLadiesGlobal](https://twitter.com/rladiesglobal), [@RLadiesSaoPaulo](https://twitter.com/RLadiesSaoPaulo)
   - Instagram: [@RLadiesSaoPaulo](http://instagram.com/RLadiesSaoPaulo)
   - Facebook: [@RLadiesSaoPaulo](http://facebook.com/RLadiesSaoPaulo)
   - MeetUp: [https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo)
   - Github: [https://github.com/rladies/meetup-presentations_sao-paulo](https://github.com/rladies/meetup-presentations_sao-paulo)
+  - R-Ladies LATAM Blog (Latin America) - Em breve!
 
 
+
+### Não tem capítulo na sua cidade e quer iniciar um?
+<center> Saiba como em <a href="https://rladies.org/about-us/help/"> R-Ladies - How do get involved </a> </center>
 
 ---
 class:  center
@@ -74,16 +172,16 @@ class:  center
 # Apoio
 <BR>
 ```{r, out.width="15%", fig.cap="<center><b>RConsortium</center></b>"}
-knitr::include_graphics("img/RCONSORTIUM.png")
+knitr::include_graphics("img/logos/RCONSORTIUM.png")
 ```
 <BR>
 ```{r, out.width="35%", fig.cap="<center><b>ThoughtWorks</center></b>"}
-knitr::include_graphics("img/thoughtworks.jpg")
+knitr::include_graphics("img/logos/thoughtworks.jpg")
 ```
 <BR>
 
 ```{r, out.width="30%", fig.cap="<center><b>CONRE-3</center></b>"}
-knitr::include_graphics("img/CONRE-3-LOGO-OFICIAL-safira.png")
+knitr::include_graphics("img/logos/CONRE-3-LOGO-OFICIAL-safira.png")
 ```
 
 
@@ -92,6 +190,68 @@ class:  center
 
 <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1zD0Ou45qpqvO1O-vOOVAqidXETxKgLKVR-kQCMzIm_0&font=Fjalla-Average&lang=pt-br&initial_zoom=2&height=625' width='100%' height='625' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
+---
+class:  center, middle
+# Agradecemos os apoios! <3
+
+## Espaços para Meetup:
+- ThoughtWorks SP
+- NCC/IFT - UNESP Barra Funda
+- USP
+- MobiLab
+- Loggi
+- CONRE-3
+- FIAP
+- PUC-SP
+- SPC Brasil
+- COLAB.RE
+---
+class:  center, middle
+# Agradecemos os apoios! <3
+
+## Coffe break:
+- ThoughtWorks SP
+- Loggi
+- SPC Brasil
+---
+class:  center, middle
+# Agradecemos os apoios! <3
+
+## Bolsas em cursos de R:
+
+
+
+
+```{r, out.width="30%", fig.cap="<center><b>Curso-R</center></b>"}
+  knitr::include_graphics("img/logos/curso-r.JPG")
+```
+
+
+---
+class:  center, middle
+# Agradecemos os apoios! <3
+
+## Brindes: 
+
+
+```{r, out.width="30%", fig.cap="<center><b>CONRE-3</center></b>"}
+knitr::include_graphics("img/logos/CONRE-3-LOGO-OFICIAL-safira.png")
+```
+
+
+
+```{r, out.width="30%", fig.cap="<center><b>RStudio</center></b>"}
+knitr::include_graphics("img/logos/RStudio-Logo-Flat.png")
+```
+---
+class:  center, middle
+# Agradecemos os apoios! <3
+## Apoio financeiro: 
+
+
+```{r, out.width="15%", fig.cap="<center><b>RConsortium</center></b>"}
+knitr::include_graphics("img/logos/RCONSORTIUM.png")
+```
 ---
 class:  center
 # Atividades externas - IV SER
