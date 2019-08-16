@@ -144,28 +144,23 @@ class:  center, middle
 ## Como saber mais?
 
   - Website RLadies Global: [https://rladies.org/](https://rladies.org/)
+
   - Twitter: [@RLadiesGlobal](https://twitter.com/rladiesglobal), [@RLadiesSaoPaulo](https://twitter.com/RLadiesSaoPaulo)
+
   - Instagram: [@RLadiesSaoPaulo](http://instagram.com/RLadiesSaoPaulo)
+
   - Facebook: [@RLadiesSaoPaulo](http://facebook.com/RLadiesSaoPaulo)
+
   - MeetUp: [https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo)
+
   - Github: [https://github.com/rladies/meetup-presentations_sao-paulo](https://github.com/rladies/meetup-presentations_sao-paulo)
+
   - R-Ladies LATAM Blog (Latin America) - Em breve!
 
 
 
 ### Não tem capítulo na sua cidade e quer iniciar um?
 <center> Saiba como em <a href="https://rladies.org/about-us/help/"> R-Ladies - How do get involved </a> </center>
-
----
-class:  center
-# Co-organizadoras - Capítulo São Paulo
-
-  - [Haydée Svab](https://www.linkedin.com/in/hsvab/)
-  - [Alissa Munerato](https://br.linkedin.com/in/alissa-munerato-1b0501103)
-  - [Bruna Wundervald](http://brunaw.com/)
-  - [Beatriz Milz](https://beatrizmilz.github.io/)
-  - [Bruna Garbes](https://github.com/brunagarbes)
-  - [Nathália Demetrio](https://github.com/natydemi)
 
 ---
 class:  center
@@ -191,6 +186,32 @@ class:  center
 <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1zD0Ou45qpqvO1O-vOOVAqidXETxKgLKVR-kQCMzIm_0&font=Fjalla-Average&lang=pt-br&initial_zoom=2&height=625' width='100%' height='625' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
 ---
+class:  center, middle, inverse
+
+# Agradecimentos!
+
+---
+class:  center, middle
+
+# Agradecemos os apoios! <3
+## Co-organizadoras - Capítulo São Paulo
+
+  - [Haydée Svab](https://www.linkedin.com/in/hsvab/)
+
+  - [Alissa Munerato](https://br.linkedin.com/in/alissa-munerato-1b0501103)
+
+  - [Bruna Wundervald](http://brunaw.com/)
+
+  - [Beatriz Milz](https://beatrizmilz.com)
+
+  - [Bruna Garbes](https://github.com/brunagarbes)
+
+  - [Nathália Demetrio](https://github.com/natydemi)
+
+
+
+
+---
 class:  center, middle
 # Agradecemos os apoios! <3
 
@@ -205,6 +226,8 @@ class:  center, middle
 - PUC-SP
 - SPC Brasil
 - COLAB.RE
+- Curso-R
+
 ---
 class:  center, middle
 # Agradecemos os apoios! <3
@@ -213,6 +236,7 @@ class:  center, middle
 - ThoughtWorks SP
 - Loggi
 - SPC Brasil
+- COLAB.RE
 ---
 class:  center, middle
 # Agradecemos os apoios! <3
@@ -220,12 +244,21 @@ class:  center, middle
 ## Bolsas em cursos de R:
 
 
-
-
 ```{r, out.width="30%", fig.cap="<center><b>Curso-R</center></b>"}
   knitr::include_graphics("img/logos/curso-r.JPG")
 ```
 
+Cerca de **vinte bolsas** em diversos cursos:
+
+- Workshop: Conheça o R
+
+- Introdução à programação em R
+
+- Dashboards com R
+
+- Web scraping em R
+
+- Introdução ao Machine Learning com R
 
 ---
 class:  center, middle
@@ -256,7 +289,73 @@ knitr::include_graphics("img/logos/RCONSORTIUM.png")
 class:  center
 # Atividades externas - IV SER
 
+- Local: Niterói, Rio de Janeiro
+
+- **Participação R-Ladies São Paulo**
+
+   - **Apresentação do Pôster**: 
+      - Ensino de R através da Comunidade R-Ladies - Capítulo São Paulo - Beatriz Milz, Bruna Garbes, Bruna Wundervald, Haydee Svab
+   - **Mini-cursos**:
+      - Comunicando seus resultados: Criando apresentações com R - Beatriz e Haydee
+      - Análise de Dados Musicais no R - Bruna Wundervald e Julio Trecenti
+    - **Palestra**:
+      - Probabilistic Graphical Models in R and Python - Bruna Wundervald
+      
+---
+class:  middle
+# Atividades externas - IV SER
+
+- **Aprendizado**:
+  - Curso de introdução ao Shiny - Dean Atalli
+
+- **Integração com as comunidades**:
+  - R-Ladies de outros estados brasileiros
+  - R Brasil
+
+
+```{r echo=FALSE, fig.align='center', out.width="80%"}
+knitr::include_graphics("https://secure.meetupstatic.com/photos/event/a/6/2/3/highres_481602531.jpeg")
+```
 
 ---
-class:  center
+class:  middle
 # Atividades externas - useR!2019
+
+- Local: Toulouse, França
+
+- Bolsas de diversidade/Diversity Scholarships: Angélica Custódio e Beatriz Milz
+
+- Tidy Dev Day: [post no blog da Curso-R](https://www.curso-r.com/blog/2019-08-12-tidydevday)
+
+- Lightning Talk:  
+  - Painel: Open science, Education & Community. 
+  - Apresentado por Beatriz Milz e co-autoria com Bruna Wundervald.
+  - Conteúdo: The evolution and importance of the R-Ladies São Paulo chapter in Brazil 
+
+- Post sobre o evento em geral: em breve!
+---
+class:  middle
+# Atividades externas - useR!2019
+
+```{r echo=FALSE, fig.align='center', out.width="100%"}
+knitr::include_graphics("https://d33wubrfki0l68.cloudfront.net/0ea959847b8b0c4ac5cd6df4104d02bd22b7da53/b2d02/img/blog/user2019/brasileiros.jpg")
+```
+
+---
+class:  middle
+# Sorteio
+```{r echo=TRUE}
+library(readr)
+
+participantes <- read_csv("participantes.csv")
+
+#sample(participantes$Participantes, 1)
+```
+
+
+
+---
+class: middle
+```{r echo=FALSE, fig.align='center', out.width="80%"}
+knitr::include_graphics("img/alissonhorst.jpg")
+```
