@@ -1,8 +1,8 @@
 ---
 # Para transformar em PDF, usar: 
 # pagedown::chrome_print("docs/index.html")
-title: "11º Meetup R-Ladies São Paulo"
-subtitle: "Aniversário de 1 ano!"
+title: "11º Meetup R-Ladies São Paulo<br>"
+subtitle: "Aniversário de 1 ano! <BR> <br>bit.ly/1anoR-LadiesSP <br>"
 #author: ""
 date: "17/08/2019"
 output:
@@ -22,7 +22,10 @@ layout: true
 <a href="http://instagram.com/RLadiesSaoPaulo">Instagram</a> |
 <a href="http://facebook.com/RLadiesSaoPaulo">Facebook</a> |
 <a href="https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo">Meetup</a> |
-<a href="https://github.com/rladies/meetup-presentations_sao-paulo">Github</a> 
+<a href="https://github.com/rladies/meetup-presentations_sao-paulo">Github</a> |
+<a href="http://bit.ly/1anoR-LadiesSP">bit.ly/1anoR-LadiesSP</a> 
+
+
 </span></div> 
 
 ---
@@ -244,7 +247,7 @@ class:  center, middle
 ## Bolsas em cursos de R:
 
 
-```{r, out.width="30%", fig.cap="<center><b>Curso-R</center></b>"}
+```{r, out.width="30%", fig.cap="<center><b><a href='https://www.curso-r.com/'>Curso-R</a></center></b>"}
   knitr::include_graphics("img/logos/curso-r.JPG")
 ```
 
@@ -285,6 +288,30 @@ class:  center, middle
 ```{r, out.width="15%", fig.cap="<center><b>RConsortium</center></b>"}
 knitr::include_graphics("img/logos/RCONSORTIUM.png")
 ```
+
+---
+class: middle
+# Como ajudar? <3
+
+- Lecionar workshops de temas básicos
+
+- Lecionar workshops de temas intermediários/avançados
+
+- Palestrar
+
+- Apresentar light talks/apresentações curtas
+
+- Ser monitora nos workshops
+
+- Ajudar na logistica/organização dos eventos (lugares, patrocínio, lista de presença, etc)
+
+- Ajudar na expansão/comunicação/marketing das R-Ladies
+
+- Entre outros :)
+
+
+## **Acesse o formulário: [bit.ly/participe-RLadies](http://bit.ly/participe-RLadies)**
+
 ---
 class:  center
 # Atividades externas - IV SER
@@ -343,7 +370,7 @@ knitr::include_graphics("https://d33wubrfki0l68.cloudfront.net/0ea959847b8b0c4ac
 
 ---
 class:  middle
-# Sorteio
+# Ao final do dia teremos um sorteio!
 ```{r echo=TRUE}
 library(readr)
 
