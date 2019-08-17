@@ -383,6 +383,6 @@ participantes <- read_csv("participantes.csv")
 
 ---
 class: middle
-```{r echo=FALSE, fig.align='center', out.width="80%"}
+```{r echo=FALSE, fig.align='center', out.width="70%", fig.cap="<center><b>Ilustração por Allison Horst - Twitter: <a href='https://twitter.com/allison_horst/'> @allison_horst</a> </b></center>"}
 knitr::include_graphics("img/alissonhorst.jpg")
 ```
